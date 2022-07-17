@@ -10,8 +10,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-@Data
-@AllArgsConstructor
 
 public class DataGenerator {
     private static Faker faker = new Faker(new Locale("ru"));
